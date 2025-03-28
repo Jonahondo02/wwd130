@@ -1,5 +1,6 @@
 main {
     max-width: 840px;
+
 }
 
 aside {
@@ -24,6 +25,8 @@ main {
 
 p {
     padding: 0;
+    text-align: center;
+    
 }
 
 footer {
