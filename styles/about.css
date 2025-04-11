@@ -1,0 +1,76 @@
+:root {
+    --primary-color: #FF5733;
+    /* Example color */
+    --secondary-color: #C70039;
+    /* Example color */
+    --accent1-color: #900C3F;
+    /* Example color */
+    --accent2-color: #581845;
+    /* Example color */
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+h1 {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: white;
+}
+
+article {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    color: white;
+}
+
+.client-img {
+    float: right;
+    margin-left: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--secondary-color);
+}
+
+footer a img {
+    width: 30px;
+    margin: 0 10px;
+    text-decoration: none;
+    /* Remove underline from social media icons */
+}
