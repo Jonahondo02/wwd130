@@ -1,0 +1,24 @@
+.adventure-gallery {
+    display: flex;
+    /* Use Flexbox for layout */
+    justify-content: space-around;
+    /* Space items evenly */
+    flex-wrap: wrap;
+    /* Allow wrapping on smaller screens */
+    margin: 20px 0;
+    /* Add some margin for spacing */
+}
+
+.adventure-gallery figure {
+    margin: 10px;
+    /* Space between figures */
+    text-align: center;
+    /* Center align captions */
+}
+
+.adventure-gallery img {
+    max-width: 150px;
+    /* Set a max width for images */
+    height: auto;
+    /* Maintain aspect ratio */
+}
